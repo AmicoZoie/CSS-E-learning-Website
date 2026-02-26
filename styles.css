@@ -10,15 +10,6 @@ body {
     background-color: black;
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-    padding: 15px 50px;
-    background-color: black;
-    position: sticky;
-    top: 0;
-}
-
 .logo {
     height: 50px;
 }
@@ -44,7 +35,7 @@ body {
     align-items: center;
     justify-content: center; 
     padding: 15px 50px;
-    background-color: #141414;
+    background-color: black;
     position: sticky;
     top: 0;
 }
@@ -77,5 +68,4 @@ body {
     flex: 1;
     display: flex;
     justify-content: center; 
-    gap: 20px;
 }
