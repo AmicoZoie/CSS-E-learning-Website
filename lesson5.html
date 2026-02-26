@@ -1,47 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hernandez │Lesson 5│ Codeflix</title>
+    <title>Hernandez │ CSS Selectors, Div, Span & Links │ Codeflix</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
 <div class="section">
     <div class="card">
-        
-        <h1 class="red">HYPERLINKS</h1>
+
+        <!-- Lesson Image -->
+        <img src="selectorslesson.jpg" alt="CSS Selectors and Elements"
+             style="width:100%; border-radius:15px; margin-bottom:25px;">
+
+        <h1 class="red">CSS Selectors, Div, Span & Links</h1>
 
         <p>
-            In this lesson, you will learn how hyperlinks work in HTML.
-            Hyperlinks allow users to move from one page to another,
-            connect to other websites, and navigate within the same page.
+            In this lesson, you will learn how CSS selects elements and how 
+            <b>div</b>, <b>span</b>, and <b>links</b> are used to structure and style web pages.
         </p>
 
         <br>
 
-        <h2>What You Will Learn</h2>
+        <h2>CSS Selectors</h2>
 
         <div class="resource">
-            <p>• What is the anchor tag (&lt;a&gt;)</p>
-            <p>• Absolute and Relative Links</p>
-            <p>• Opening links in a new tab</p>
-            <p>• Linking images and text</p>
+            <p><b>• Element Selector:</b> Selects all elements of a type (example: p, h1).</p>
+            <p><b>• Class Selector:</b> Selects elements with a specific class (example: .box).</p>
+            <p><b>• ID Selector:</b> Selects one unique element (example: #header).</p>
+            <p><b>• Universal Selector:</b> Selects all elements (*).</p>
         </div>
 
         <br><br>
 
-        <h2>Example Code</h2>
+        <h2>Div and Span</h2>
+
+        <div class="resource">
+            <p><b>• Div:</b> A block-level container used to group large sections of content.</p>
+            <p><b>• Span:</b> An inline container used to style small parts of text inside elements.</p>
+        </div>
 
         <p>
-            &lt;a href="https://www.example.com"&gt;Visit Website&lt;/a&gt;
+            A div usually takes the full width of the page, while a span only 
+            takes as much space as its content.
         </p>
+
+        <br><br>
+
+        <h2>Styling Links</h2>
+
+        <div class="resource">
+            <p><b>• a:</b> Styles normal links.</p>
+            <p><b>• a:hover:</b> Changes style when the mouse is over the link.</p>
+            <p><b>• a:visited:</b> Styles visited links.</p>
+            <p><b>• text-decoration:</b> Removes or adds underline.</p>
+        </div>
+
+        <br><br>
+
+        <h2>Example CSS Code</h2>
+
+        <p>
+            <code>
+                .box { <br>
+                &nbsp;&nbsp;background-color: black; <br>
+                &nbsp;&nbsp;color: white; <br>
+                } <br><br>
+                #title { <br>
+                &nbsp;&nbsp;color: red; <br>
+                } <br><br>
+                a:hover { <br>
+                &nbsp;&nbsp;color: #e50914; <br>
+                }
+            </code>
+        </p>
+
+        <br><br>
+
+        <h2>Activity</h2>
+
+        <p>Create a simple webpage and:</p>
+
+        <div class="resource">
+            <p>1. Add a div that contains a heading and a paragraph.</p>
+            <p>2. Use a class selector to change its background color.</p>
+            <p>3. Add a span inside the paragraph to highlight one word.</p>
+            <p>4. Add a link and apply a hover effect.</p>
+            <p>5. Use an ID selector to change the heading color.</p>
+        </div>
 
         <br>
 
         <p>
-            After this lesson, you should be able to create hyperlinks
-            and connect different web pages together.
+            Observe how selectors allow you to target specific elements 
+            and control your page design precisely.
         </p>
 
     </div>
@@ -49,5 +103,3 @@
 
 </body>
 </html>
-
-
