@@ -1,53 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hernandez │Lesson 3│ Codeflix</title>
+    <title>Hernandez │Lesson 6│ Codeflix</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
 <div class="section">
     <div class="card">
-        
-        <h1 class="red">HYPERLINKS</h1>
+
+        <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/07/CSS-Text-Formatting.png"
+             style="width:100%; border-radius:15px; margin-bottom:25px;">
+
+        <h1 class="red">Formatting Text with CSS</h1>
 
         <p>
-            In this lesson, you will learn how hyperlinks work in HTML.
-            Hyperlinks allow users to move from one page to another,
-            connect to other websites, and navigate within the same page.
+            Styling text in CSS refers to how text is displayed and arranged inside an HTML element. 
+            By combining font styles and text layout styles, developers improve readability, 
+            visual appeal, and design consistency.
         </p>
 
         <br>
 
-        <h2>What You Will Learn</h2>
-
+        <h2>1. Font Properties</h2>
         <div class="resource">
-            <p>• What is the anchor tag (&lt;a&gt;)</p>
-            <p>• Absolute and Relative Links</p>
-            <p>• Opening links in a new tab</p>
-            <p>• Linking images and text</p>
+            <p>• <b>Font-Family:</b> Specifies the typeface. A <i>Font Stack</i> (a list of fonts) ensures text displays properly if the preferred font is missing.</p>
+            <p>• <b>Font-Size:</b> Controlled via <code>px</code> (static), <code>%</code>, or <code>em</code> (dynamic/proportional).</p>
+            <p>• <b>Font-Style:</b> Options include <code>normal</code>, <code>italic</code> (cursive-style), or <code>oblique</code> (slanted).</p>
+            <p>• <b>Font-Weight:</b> Controls thickness, ranging from <code>100</code> to <code>900</code> or keywords like <code>bold</code>.</p>
+            <p>• <b>Font-Variant:</b> Used to create <code>small-caps</code> effects.</p>
         </div>
 
-        <br><br>
+        <br>
 
-        <h2>Example Code</h2>
+        <h2>2. Text Layout & Alignment</h2>
+        <div class="resource">
+            <p>• <b>Text-Align:</b> Options include <code>left</code>, <code>right</code>, <code>center</code>, and <code>justify</code> (common in formal publications).</p>
+            <p>• <b>Text-Decoration:</b> Adds an <code>underline</code>, <code>overline</code>, or <code>line-through</code>.</p>
+            <p>• <b>Text-Transform:</b> Changes case to <code>uppercase</code>, <code>lowercase</code>, or <code>capitalize</code>.</p>
+            <p>• <b>Line-Height:</b> Sets vertical distance; extra space created here is called <i>leading</i>.</p>
+            <p>• <b>Spacing:</b> <code>letter-spacing</code> and <code>word-spacing</code> adjust the gaps between characters and words.</p>
+        </div>
 
+        <br>
+
+        <h2>3. Borders, Padding & Lists</h2>
         <p>
-            &lt;a href="https://www.example.com"&gt;Visit Website&lt;/a&gt;
+            <b>Borders:</b> Defined by style (dotted, solid, double, etc.), width, and color. 
+            You can use <code>border-radius</code> to round the corners of an element.
+        </p>
+        <br>
+        <p>
+            <b>Padding vs. Margin:</b> <code>Padding</code> is "filling" inside an element (between content and border), 
+            while <code>Margin</code> is the space outside the element.
+        </p>
+        <br>
+        <p>
+            <b>Lists:</b> <code>list-style-type</code> changes bullets (disc, circle, square) or numbering (decimal, roman, alpha).
         </p>
 
         <br>
 
+        <h2>4. Pseudo-Classes & Elements</h2>
         <p>
-            After this lesson, you should be able to create hyperlinks
-            and connect different web pages together.
+            <b>Pseudo-classes (:)</b> style dynamic states, like <code>:hover</code> when a mouse is over an element or <code>:focus</code> when selected.
+        </p>
+        <br>
+        <p>
+            <b>Pseudo-elements (::)</b> style specific parts, like <code>::first-letter</code> for drop caps or <code>::before</code>/<code>::after</code> to insert generated content.
         </p>
 
-    </div>
-</div>
+        <br>
 
-</body>
-</html>
-
-
+        <h2>Example CSS Code</h2>
+        <p>
+            <code>
+                p { <br>
+                &nbsp;&nbsp;font-family: "Inter", "Arial", sans-serif; <br>
+                &nbsp;&nbsp;color: #ff0000; /* Red Hex */ <br>
+                &nbsp;&nbsp;
