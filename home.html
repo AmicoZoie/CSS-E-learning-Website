@@ -5,9 +5,51 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
+<div class="home">
+  <h1 class="head">Welcome to Codeflix!</h1>
+  <h2> Discover a world of web development and coding at your own pace. Learn, build, and grow with interactive lessons designed for beginners and pros alike. </h2>
+</div>
+<div class="container">
+  <div class="info">
+    <h3 class="head"> What are we for? </h3>
+    <p>Codeflix is your ultimate online learning platform for web development. From HTML and CSS to advanced JavaScript and frameworks, our courses are structured to help you gain practical skills fast. Join thousands of learners turning their ideas into real websites and apps.<br> <b>“Turn your ideas into reality, one line of code at a time.”</b></p>
+  </div>
+  <div class="info">
+    <h3 class="head"> The Basics </h3>
+    <iframe width="90%" height="auto" src="https://www.youtube.com/embed/vY2xUc4TVmY?si=UNTcbNit58E7jtUd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</div>
+  <div class="form">
+  <h2 class="head">Join Codeflix Today</h2>
+  <form>
+    <input type="text" name="firstname" placeholder="First Name" required>
+    <input type="text" name="lastname" placeholder="Last Name" required>
+    <input type="date" name="birthday" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type="password" name="confirm" placeholder="Confirm Password" required>
+    <input type="tel" name="mobile" placeholder="Mobile Number">
+    <textarea name="address" rows="4" placeholder="Enter your address"></textarea>
+    
+    <div class="gender">
+      <label><input type="radio" name="gender" value="male"> Male</label>
+      <label><input type="radio" name="gender" value="female"> Female</label>
+    </div>
+    
+    <div class="grade">
+      <label><input type="checkbox" name="grade" value="7"> 7 </label>
+      <label><input type="checkbox" name="grade" value="8"> 8 </label>
+      <label><input type="checkbox" name="grade" value="9"> 9 </label>
+      <label><input type="checkbox" name="grade" value="10"> 10 </label>
+    </div>
+    
+    <input type="file" name="fileupload">
+    
+    <button type="submit">Register</button>
+    <button type="reset">Reset</button>
+  </form>
+  </div>
 </body>
 </html>
 
