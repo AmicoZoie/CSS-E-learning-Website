@@ -1,63 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hernandez │ Formatting Text with CSS │ Codeflix</title>
+    <title>Hernandez │ Backgrounds & Box Model │ Codeflix</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
 <div class="section">
     <div class="card">
-        
-        <h1 class="red">Formatting Text with CSS</h1>
+
+        <!-- Lesson Image -->
+        <img src="backgroundlesson.jpg" alt="Background and Box Model"
+             style="width:100%; border-radius:15px; margin-bottom:25px;">
+
+        <h1 class="red">Backgrounds & The Box Model</h1>
 
         <p>
-            Styling text in CSS refers to how text is displayed and arranged inside an HTML element[cite: 4]. 
-            By combining font styles and text layout styles, CSS improves readability, visual appeal, 
-            and design consistency[cite: 12].
+            In this lesson, you will learn how to style backgrounds and understand
+            how spacing works in CSS using the Box Model.
         </p>
 
         <br>
 
-        <h2>Core CSS Properties</h2>
+        <h2>Background Properties</h2>
 
         <div class="resource">
-            <p>• <b>Font Styles:</b> Control appearance like font-family, size, weight (bold), and style (italic)[cite: 10].</p>
-            <p>• <b>Text Layout Styles:</b> Affect spacing and positioning, including line spacing, letter spacing, and alignment[cite: 11].</p>
-            <p>• <b>Text-Decoration:</b> Adds or removes lines like underline, overline, and line-through[cite: 67].</p>
-            <p>• <b>Text-Transform:</b> Changes text case to uppercase, lowercase, or capitalize without altering original content[cite: 72, 73].</p>
+            <p><b>• background-image:</b> Adds an image behind an element.</p>
+            <p><b>• background-color:</b> Sets a solid color background.</p>
+            <p><b>• background-repeat:</b> Controls if the image repeats (repeat, no-repeat, repeat-x, repeat-y).</p>
+            <p><b>• background-position:</b> Sets where the image appears (center, top, left, right, bottom).</p>
         </div>
 
         <br><br>
 
-        <h2>Important Concepts</h2>
+        <h2>Offset & Spacing</h2>
+
+        <div class="resource">
+            <p><b>• Margin:</b> Space outside the element (pushes elements apart).</p>
+            <p><b>• Padding:</b> Space inside the element (between content and border).</p>
+        </div>
+
+        <br><br>
+
+        <h2>The CSS Box Model</h2>
 
         <p>
-            <b>The Font Stack:</b> A list of fonts in the font-family property that allows the 
-            browser to choose an alternative if the preferred one is unavailable[cite: 28].
+            Every HTML element is treated as a rectangular box. The Box Model consists of:
         </p>
 
-        <br>
+        <div class="resource">
+            <p>• Content – The actual text or image</p>
+            <p>• Padding – Space around the content</p>
+            <p>• Border – The edge around padding</p>
+            <p>• Margin – Space outside the border</p>
+        </div>
 
-        <p>
-            <b>Line Height & Leading:</b> The line-height property sets the vertical distance between lines[cite: 94]. 
-            Extra space created when line-height is larger than font size is called leading[cite: 98].
-        </p>
-
-        <br>
+        <br><br>
 
         <h2>Example CSS Code</h2>
 
         <p>
             <code>
-                p { <br>
-                &nbsp;&nbsp;font-family: "Inter", sans-serif; /* Font Stack [cite: 28] */ <br>
-                &nbsp;&nbsp;font-size: 16px; /* Font Size [cite: 34] */ <br>
-                &nbsp;&nbsp;color: #ff0000; /* Hex-notation [cite: 20] */ <br>
-                &nbsp;&nbsp;text-align: justify; /* Horizontal Alignment [cite: 60] */ <br>
+                div { <br>
+                &nbsp;&nbsp;background-color: black; <br>
+                &nbsp;&nbsp;background-image: url("bg.jpg"); <br>
+                &nbsp;&nbsp;background-repeat: no-repeat; <br>
+                &nbsp;&nbsp;background-position: center; <br>
+                &nbsp;&nbsp;padding: 20px; <br>
+                &nbsp;&nbsp;margin: 15px; <br>
                 }
             </code>
+        </p>
+
+        <br><br>
+
+        <h2>Activity</h2>
+
+        <p>
+            Create a div element and:
+        </p>
+
+        <div class="resource">
+            <p>1. Add a background color.</p>
+            <p>2. Insert a background image.</p>
+            <p>3. Set it to no-repeat.</p>
+            <p>4. Center the image.</p>
+            <p>5. Add padding and margin.</p>
+            <p>6. Add a visible border to see the Box Model clearly.</p>
+        </div>
+
+        <br>
+
+        <p>
+            Observe how spacing changes when you adjust margin and padding.
         </p>
 
     </div>
