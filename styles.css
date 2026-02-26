@@ -163,7 +163,7 @@ body {
     margin: 10px 0;
 }
 .aboutsite {
-    background-color: #141414;
+    background-color: black;
     color: white;
     padding: 60px 20px;
     text-align: center;
@@ -220,7 +220,7 @@ body {
   font-family: 'BebasNeue';
 }
 .contactsection {
-    background-color: #141414;
+    background-color: black;
     color: white;
     padding: 60px 20px;
     text-align: center;
