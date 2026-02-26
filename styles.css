@@ -79,7 +79,27 @@ body {
   background-size: cover;      
   background-position: center;  
   height: auto;              
-  width: 75%;              
+  width: 75%;      
+  border: 2px solid white;
+}
+
+.container {
+  height: auto;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  gap: 30px;
+  max-width: 90%;
+  margin: 40px auto;
+}
+
+  
+.info {
+  height: auto;
+  width: 50%;
+  border: 2px solid white;
+  margin: 0;
 }
 
 
