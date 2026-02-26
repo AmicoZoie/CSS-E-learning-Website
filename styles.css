@@ -161,3 +161,50 @@ body {
     gap: 15px;
     margin: 10px 0;
 }
+.aboutsite {
+    background-color: #141414;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.aboutcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.aboutbox {
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aboutbox:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(229, 9, 20, 0.7); 
+}
+
+.abouthead {
+    font-family: 'BebasNeue', Georgia, serif;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #e50914; 
+}
+
+.aboutpics {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.aboutpics img {
+    height: 60px;   
+    width: auto;
+    display: block;
+}
