@@ -209,3 +209,12 @@ body {
     width: auto;
     display: block;
 }
+
+.left {
+  text-align: left;
+}
+
+.big {
+  font-size: 120px;
+  text-align: left;
+}
