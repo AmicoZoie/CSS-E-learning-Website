@@ -218,3 +218,82 @@ body {
   font-size: 120px;
   text-align: left;
 }
+.contactsection {
+    background-color: #141414;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contactcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contactbox {
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contactbox:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(229, 9, 20, 0.7); 
+}
+
+.contacthead {
+    font-family: 'BebasNeue', Georgia, serif;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #e50914;
+}
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.socialicons img {
+    height: 40px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.socialicons img:hover {
+    transform: scale(1.2);
+}
+
+.feedback input,
+.feedback textarea {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.feedback button {
+    width: 45%;
+    padding: 12px;
+    margin: 10px 5px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.feedback button:hover {
+    background-color: #f40612;
+    transform: scale(1.05);
+}
