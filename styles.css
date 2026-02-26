@@ -298,3 +298,10 @@ body {
     background-color: #f40612;
     transform: scale(1.05);
 }
+
+.red { 
+  font-size: 100px;
+  text-align: center;
+  font-family: 'BebasNeue';
+  color: #E50914;
+}
