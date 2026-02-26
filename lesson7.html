@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hernandez │Lesson 7│ Codeflix</title>
+    <title>Hernandez │ Formatting Text with CSS │ Codeflix</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
@@ -10,38 +10,54 @@
 <div class="section">
     <div class="card">
         
-        <h1 class="red">HYPERLINKS</h1>
+        <h1 class="red">Formatting Text with CSS</h1>
 
         <p>
-            In this lesson, you will learn how hyperlinks work in HTML.
-            Hyperlinks allow users to move from one page to another,
-            connect to other websites, and navigate within the same page.
+            Styling text in CSS refers to how text is displayed and arranged inside an HTML element[cite: 4]. 
+            By combining font styles and text layout styles, CSS improves readability, visual appeal, 
+            and design consistency[cite: 12].
         </p>
 
         <br>
 
-        <h2>What You Will Learn</h2>
+        <h2>Core CSS Properties</h2>
 
         <div class="resource">
-            <p>• What is the anchor tag (&lt;a&gt;)</p>
-            <p>• Absolute and Relative Links</p>
-            <p>• Opening links in a new tab</p>
-            <p>• Linking images and text</p>
+            <p>• <b>Font Styles:</b> Control appearance like font-family, size, weight (bold), and style (italic)[cite: 10].</p>
+            <p>• <b>Text Layout Styles:</b> Affect spacing and positioning, including line spacing, letter spacing, and alignment[cite: 11].</p>
+            <p>• <b>Text-Decoration:</b> Adds or removes lines like underline, overline, and line-through[cite: 67].</p>
+            <p>• <b>Text-Transform:</b> Changes text case to uppercase, lowercase, or capitalize without altering original content[cite: 72, 73].</p>
         </div>
 
         <br><br>
 
-        <h2>Example Code</h2>
+        <h2>Important Concepts</h2>
 
         <p>
-            &lt;a href="https://www.example.com"&gt;Visit Website&lt;/a&gt;
+            <b>The Font Stack:</b> A list of fonts in the font-family property that allows the 
+            browser to choose an alternative if the preferred one is unavailable[cite: 28].
         </p>
 
         <br>
 
         <p>
-            After this lesson, you should be able to create hyperlinks
-            and connect different web pages together.
+            <b>Line Height & Leading:</b> The line-height property sets the vertical distance between lines[cite: 94]. 
+            Extra space created when line-height is larger than font size is called leading[cite: 98].
+        </p>
+
+        <br>
+
+        <h2>Example CSS Code</h2>
+
+        <p>
+            <code>
+                p { <br>
+                &nbsp;&nbsp;font-family: "Inter", sans-serif; /* Font Stack [cite: 28] */ <br>
+                &nbsp;&nbsp;font-size: 16px; /* Font Size [cite: 34] */ <br>
+                &nbsp;&nbsp;color: #ff0000; /* Hex-notation [cite: 20] */ <br>
+                &nbsp;&nbsp;text-align: justify; /* Horizontal Alignment [cite: 60] */ <br>
+                }
+            </code>
         </p>
 
     </div>
@@ -49,5 +65,3 @@
 
 </body>
 </html>
-
-
