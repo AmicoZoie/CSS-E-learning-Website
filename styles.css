@@ -353,3 +353,46 @@ body {
   background-color: #2a2a2a;
   transform: scale(1.05);
  }
+
+.section {
+    background-color: #141414;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #1e1e1e;
+    width: 400px;
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(229, 9, 20, 0.7); 
+}
+
+.resource {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resource a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.resource a:hover {
+    background-color: #2a2a2a;
+}
